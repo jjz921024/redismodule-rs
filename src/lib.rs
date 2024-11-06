@@ -11,11 +11,13 @@ mod redismodule;
 pub mod redisraw;
 pub mod redisvalue;
 pub mod stream;
+pub mod memory_inspector;
 
 pub mod configuration;
 mod context;
 pub mod key;
 pub mod logging;
+#[macro_use]
 mod macros;
 mod utils;
 
